@@ -1,0 +1,11 @@
+# This file is licensed under the MIT License.
+# Copyright (c) chriscomputing
+[custom]
+[custom.git_identity]
+when = "command git idm list"  # Check if git idm is installed by asking for a list of users
+require_repo = true  # Only run in git repos
+symbol = " "
+command = "git idm active 2>&1 | head -n 1"
+format = "as [$symbol($output )]($style)"
+disabled = false
+description = "Display current git identity using git idm"
