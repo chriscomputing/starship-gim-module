@@ -1,6 +1,8 @@
 # starship-gim-module
 [Git identity manager](https://github.com/samrocketman/git-identity-manager) is a handy way to manage multiple git identities. What can be a bit tricky is remembering, which identity is currently used at all times. If you use Starship for your prompt, this module will solve this problem.  
 
+![Example of starship-gim-module in action](example.png)
+
 ## <b>DISCLAIMER: NEITHER I NOR THE PROJECT ARE AFFILIATED IN ANY WAY WITH GIT IDENTITY MANAGER OR STARSHIP</b>
 
 ## Prerequisites
